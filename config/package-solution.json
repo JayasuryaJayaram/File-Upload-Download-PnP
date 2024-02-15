@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "upload-download-pn-p-client-side-solution",
+    "id": "6346c3e6-d3c7-44f0-89f5-2f49ac1c595a",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.18.1"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "UploadDownloadPnP description"
+      },
+      "longDescription": {
+        "default": "UploadDownloadPnP description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "upload-download-pn-p Feature",
+        "description": "The feature that activates elements of the upload-download-pn-p solution.",
+        "id": "fa14a3c9-f499-44b4-b63d-3f4096aca992",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/upload-download-pn-p.sppkg"
+  }
+}
